@@ -1,0 +1,30 @@
+Expo - framework for universal Recat applications. Tools and services to develop/build/deploy for ios/android/web apps using the same code
+What are these tools and services ???
+Expo go - literally scan QR code to see how the project is going (QR code sends you to project in the Expo go app)
+Pretty cool NGL, connects via network, not even cable, insta refreshes too
+
+
+
+NativeBase - React native components, cool UI stuff
+
+Typescript - Javascript but you can define your own types, somehow really op. 
+type Props = {
+    children: React.ReactNode;
+}
+Gonna assume this says for Props objects the children (between tags) are React.ReactNode objects
+
+Having a full file dedicated to managing themes (theme.ts), so you can have a light/dark mode, 
+
+A src folder dedicatd to screens, similar to pages in regular React?
+
+useColorMode
+useColorModeValue('red.500', 'yellow.500'), first theme uses red, second theme uses yellow
+Explanation of components:
+NavigationContainer - Navigating between screens (similar to Router)
+NativeBaseProvider - stuff for handling themes
+Center - For centering components
+Vstack - Stack components vertically
+Box - A box to hold other components, change dimensions
+HStack - Stack components horizontally
+Switch - A switch to toggle things, has isChecked and onToggle parameters/attributes
+
